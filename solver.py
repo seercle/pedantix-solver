@@ -167,6 +167,7 @@ with open(filename, "r") as f:
             print("Title found!")
             ranking = page.locator("#ranking").inner_text()[:-1] # Read the ranking and remove the last character
             print(f"Ranking: {ranking}")
+            page.screenshot(path=f"ranking_{day}.png")
         print(f"Tries: {len(guessed_words)}")
         browser.close()
 exit(0)
