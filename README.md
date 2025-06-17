@@ -6,7 +6,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Hy3z/pedantix-solver.git
+    git clone https://github.com/seercle/pedantix-solver.git
     cd pedantix-solver
     ```
 
